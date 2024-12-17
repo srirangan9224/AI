@@ -154,4 +154,3 @@ def minimax(board):
         for action in actions(board):
             possible.append((max_value(result(board, action)), action))
         return sorted(possible)[0][1]
-        
